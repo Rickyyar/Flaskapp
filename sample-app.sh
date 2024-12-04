@@ -7,6 +7,4 @@ pip install -r requirements.txt
 python3 sample_app.py
 deactivate
 cd ..
-rm -rf Flaskapp 
-cd ..
-cd
+rm -rf Flaskapp
