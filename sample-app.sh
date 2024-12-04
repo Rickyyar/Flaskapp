@@ -9,3 +9,4 @@ deactivate
 cd ..
 rm -rf Flaskapp 
 cd ..
+cd ..
