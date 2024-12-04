@@ -4,6 +4,7 @@ cleanup() {
     echo "Cleaning up ..."
     deactivate
     rm -rf /home/devasc/Documents/Git_testing/deployment/Flaskapp
+    rm -rf /home/devasc/Documents/Git_testing/deployment/flask_venv
     echo "Application folder has been removed"
 }
 python3 -m venv flask_venv
