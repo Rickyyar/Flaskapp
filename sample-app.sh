@@ -10,7 +10,7 @@ cleanup() {
 trap cleanup EXIT
 echo "$(date '+%H:%M:%S') - creating python VENV"
 python3 -m venv flask_venv
-sleep 15  # Pause for 2 seconds
+sleep 15  # Pause
 echo "$(date '+%H:%M:%S') - This is the message after a 15-second pause."²
 echo "$(date '+%H:%M:%S')- entering VENV"
 source flask_venv/bin/activate
